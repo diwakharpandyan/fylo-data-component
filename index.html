@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+
+    <title>Frontend Mentor | Fylo data storage component</title>
+  </head>
+  <body>
+    <main>
+      <div class="logo">
+        <div class="fylo-logo">
+          <img src="./images/logo.svg" alt="fylo-logo" />
+        </div>
+        <div class="icons">
+          <div class="icon-container">
+            <img
+              class="icon"
+              src="./images/icon-document.svg"
+              alt="document-icon"
+            />
+          </div>
+          <div class="icon-container">
+            <img
+              class="icon"
+              src="./images/icon-folder.svg"
+              alt="folder-icon"
+            />
+          </div>
+          <div class="icon-container">
+            <img
+              class="icon"
+              src="./images/icon-upload.svg"
+              alt="upload-icon"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="text">
+        <p>You’ve used <strong>815 GB</strong> of your storage</p>
+        <div class="progress-bar-border">
+          <div class="progress-bar">
+            <div class="progress-bar-icon-circle"></div>
+          </div>
+        </div>
+        <div class="gb-range">
+          <div class="range-start">0 GB</div>
+          <div class="range-end">1000 GB</div>
+        </div>
+        <div class="gb-left">
+          <h1>185</h1>
+          <p>GB LEFT</p>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
